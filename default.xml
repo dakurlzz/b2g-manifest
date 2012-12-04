@@ -6,7 +6,7 @@
   <remote  name="linaro"
            fetch="git://android.git.linaro.org/" />
   <remote name="cm9"
-  fetch="git://github.com/CyanogenMod/" />
+           fetch="git://github.com/CyanogenMod/" />
   <remote name="sakindia123"
 	  fetch="git://github.com/sakindia123/" />
   <remote name="lirokoa"
@@ -28,7 +28,6 @@
   <project path="gecko" name="releases-mozilla-central" remote="mozilla" revision="master" />
   <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="master" />
   <project path="rilproxy" name="rilproxy" remote="b2g" revision="master" />
-  <project path="hardware/ril" name="platform_hardware_ril" remote="b2g" revision="master"/>
   <project path="external/qemu" name="platform_external_qemu" remote="b2g" revision="master"/>
 
   <!-- Stock Android things -->
