@@ -5,6 +5,12 @@
            fetch="https://android.googlesource.com/" />
   <remote  name="linaro"
            fetch="git://android.git.linaro.org/" />
+  <remote name="cm9"
+  fetch="git://github.com/CyanogenMod/" />
+  <remote name="sakindia123"
+	  fetch="git://github.com/sakindia123/" />
+  <remote name="lirokoa"
+	  fetch="git://github.com/lirokoa/" />
   <remote name="b2g"
           fetch="git://github.com/mozilla-b2g/" />
   <remote name="mozilla"
@@ -102,5 +108,16 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" revision="master" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" revision="master" />
   <project path="sdk" name="platform/sdk" revision="0d8f973905a4925e00eb9e32887c192b2148b29f" />
+
+ <!-- Pico Specific HAL -->
+  <project path="kernel/htc/pico" name="htc_pico_kernel" remote="lirokoa" revision="ics" />
+  <project path="vendor/htc/pico" name="ics-vendor-pico" remote="sakindia123" revision="master" />
+  <project path="device/htc/pico" name="android_device_htc_pico_ics" remote="lirokoa" revision="master" />
+  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="b2g" />
+  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm9" revision="ics" />
+  <project path="hardware/msm7k" name="android_hardware_msm7k" remote="cm9" revision="ics" />
+  <project path="vendor/qcom/opensource/omx/mm-core" name="platform/vendor/qcom-opensource/omx/mm-core" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="cm9" revision="ics" />
 
 </manifest>
