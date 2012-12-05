@@ -112,5 +112,7 @@
   <project path="hardware/msm7k" name="android_hardware_msm7k" remote="cm9" revision="ics" />
   <project path="hardware/ril" name="android_hardware_ril" remote="cm9" revision="ics" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="cm9" revision="ics" />
+  <project path="external/hostap" name="platform/external/hostap" />
+  <project path="external/unbootimg" name="unbootimg" remote="b2g" revision="master" />
 
 </manifest>
