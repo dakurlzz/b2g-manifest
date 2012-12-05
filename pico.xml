@@ -84,7 +84,7 @@
   <project path="external/tagsoup" name="android_external_tagsoup" />
   <project path="external/tinyalsa" name="platform/external/tinyalsa" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="external/tremolo" name="android_external_tremolo" />
-  <project path="external/webp" name="platform/external/webp" />
+  <project path="external/webp" name="android_external_webp" />
   <project path="external/webrtc" name="android_external_webrtc" />
   <project path="external/wpa_supplicant" name="android_external_wpa_supplicant" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" revision="ics" remote="cm9" />
@@ -117,7 +117,7 @@
   <project path="hardware/msm7k" name="android_hardware_msm7k" remote="cm9" revision="ics" />
   <project path="hardware/ril" name="android_hardware_ril" remote="cm9" revision="ics" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="cm9" revision="ics" />
-  <project path="external/hostap" name="platform/external/hostap" />
+  <project path="external/hostap" name="platform/external/hostap" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="external/unbootimg" name="unbootimg" remote="b2g" revision="master" />
 
 </manifest>
